@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ВикториСтрой</title>
+
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/slider.css" rel="stylesheet">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/advantages.css" rel="stylesheet">
+    <link href="css/elements.css" rel="stylesheet">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                  <img class="main-logo" src="./img/logo-vs.png">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">О компании</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Виды работ</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#advantages">Преимущества</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#workflow">Схема работы</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#clients">Наши клинеты</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#certificates">Сертификаты</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">Портфолио</a>
+                    </li>
+                  <!--   <li>
+                        <a class="page-scroll" href="#feedback">Отзывы</a>
+                    </li> -->
+                </ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <button type="button" class="btn expand-email-button" data-toggle="modal" data-target="#emailModal">Написать нам</button>
+
+  
+    <div class="modal fade" id="emailModal" role="dialog">
+        <form class="modal-content">
+            <div class="form-group">
+                <label for="usr">Ваше имя</label>
+                <input type="text" class="form-control" id="usr">
+            </div>
+            <div class="form-group">
+                <label for="usr">Email</label>
+                <input type="text" class="form-control" id="usr">
+            </div>
+            <div class="form-group">
+                <label for="phone">Телефон</label>
+                <input type="text" class="form-control" id="phone" >
+            </div>
+            <div class="form-group">
+                <label for="usr">Сообщение</label>
+                <input type="text" class="form-control input-message" id="usr">
+            </div>
+            <button  type="submit" class="btn">Позвонить</button>
+        </form>
+    </div>
+
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section section">
+        <div class="container">
+            <div class="row">
+               
+                    
+                    <div class="logo"></div>
+                    <div class="contacts-container">
+                        <div class="inner-contacts">
+                            <div>
+                                <h1>Все виды строительных работ</h1>
+                            </div>
+                            <div class="company-name">
+                                <p>"ООО" Виктори-строй</p>
+                            </div>
+                            <div class="address">
+                                <p>Минский район, д. Большой Тростенец, ул. Молодежная, д.1, корп.2, ком.1</p>
+                            </div>
+                            <div class="phone-container">
+                                <a class="phone" href="tel:+375255224497">+375(25)522-44-97</a>
+                            </div>
+                            <div class="email-container">
+                                <a class="email" href="mailto:victory-stroy@tut.by">victory-s@tut.by</a>                           
+                            </div>
+                        </div>
+                        
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section">
+        <div class="container">
+            <div class="row">
+                
+                <h1>О компании</h1>
+                
+
+                <h3>Ищите профессиональную команду для выполнения строительно-монтажных работ?
+                   Вам повезло! Строительство – наша профессия! Ремонт и отделка – наша специализации!. Доверьтесь профессионалам!!! 
+                </h3>
+                <p>
+                    Мы гарантируем порядочность, качество, скорость и доступность услуг. Все работы, которые ведутся нашими сотрудниками, контролируются руководством. Это делается для того, чтобы результаты работы соответствовали высочайшим стандартам. Для нас очень важно, чтобы клиенты хорошо отзывались о нас . Мы дорожим своим добрым именем, поэтому стараемся выполнять свою работу таким образом, чтобы нашим клиентам было удобно, комфортно и надежно с нами! Однажды воспользовавшись услугами нашей компании, Вы и в дальнейшем будет пользоваться нашими сервисом по ремонту и советовать его друзьям.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section section">
+        <div class="container">
+            <div class="row">
+                
+                <h1>Наши услуги</h1>
+                
+                <div class="servicesContainer">
+                    <div class="serviceInfo">
+                        <p  data-toggle="modal" data-target="#serviceInfo1">Ремонт и отделка домов и коттеджей</p>           
+                        <div class="modal fade" id="serviceInfo1" role="dialog">
+                            <ul class="list-group list-elements">
+                                <li class="list-group-item">Комплексный ремонт и отделка домов и коттеджей</li>
+                                <li class="list-group-item">Ремонт и отделка внутренних помещений</li>
+                                <li class="list-group-item">Фасадные работы</li>
+                                <li class="list-group-item">Отделка цоколя, крылец</li>
+                                <li class="list-group-item">Кровельные работы</li>
+                                <li class="list-group-item">Благоустройство</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="serviceInfo">
+                        <p data-toggle="modal" data-target="#serviceInfo2">Ремонт и отделка квартир</p>               
+                        <div class="modal fade" id="serviceInfo2" role="dialog">
+                            <ul class="list-group list-elements">
+                                <li class="list-group-item">Комплексный ремонт и отделка квартир</li>
+                                <li class="list-group-item">Ремонт и отделка помещений</li>
+                                <li class="list-group-item">Ремонт и отделка санузлов</li>
+                                <li class="list-group-item">Ремонт и отделка кухонь</li>
+                                <li class="list-group-item">Сантехнические работы</li>
+                                <li class="list-group-item">Электромонтажные работы</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="serviceInfo">
+                        <p data-toggle="modal" data-target="#serviceInfo3">Ремонт и отделка офисов и коммерческих помещений</p>      
+                        <div class="modal fade" id="serviceInfo3" role="dialog">
+                            <ul class="list-group list-elements">
+                                <li class="list-group-item">Ремонт и отделка офисов</li>
+                                <li class="list-group-item">Ремонт и отделка магазинов</li>
+                                <li class="list-group-item">Ремонт и отделка кафе, ресторанов, пунктов общественного питания</li>
+                                <li class="list-group-item">Ремонт и отделка торговых площадей</li>
+                                <li class="list-group-item">Ремонт и отделка складских помещений</li>
+                                <li class="list-group-item">Ремонт и отделка производственных помещений</li>
+                                <li class="list-group-item">Ремонт и отделка жилых помещений</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="serviceInfo">
+                        <p data-toggle="modal" data-target="#serviceInfo4">Выполнение строительно-монтажных работ на объектах любой формы собственности</p>                 
+                        <div class="modal fade" id="serviceInfo4" role="dialog">
+                            <ul class="list-group list-elements">
+                                <li class="list-group-item">Ремонт помещений</li>
+                                <li class="list-group-item">Ремонт санузлов</li>
+                                <li class="list-group-item">Ремонт пищеблоков</li>
+                                <li class="list-group-item">Утепление и реабилитация фасадов</li>
+                                <li class="list-group-item">Устройство и ремонт кровель</li>
+                                <li class="list-group-item">Ремонт операционных</li>
+                                <li class="list-group-item">Ремонт подъездов и коридоров</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="serviceInfo">
+                        <p data-toggle="modal" data-target="#serviceInfo5">Благоустройство территории</p>           
+                        <div class="modal fade" id="serviceInfo5" role="dialog">
+                            <ul class="list-group list-elements">
+                                <li class="list-group-item">Земляные работы</li>
+                                <li class="list-group-item">Устройство отмостки</li>
+                                <li class="list-group-item">Устройство тротуаров из плитки</li>
+                                <li class="list-group-item">Устройство заборов</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="serviceInfo">
+                        <p data-toggle="modal" data-target="#serviceInfo6">Капитальное строительство</p>           
+                        <div class="modal fade" id="serviceInfo6" role="dialog">
+                            <ul class="list-group list-elements">
+                                <li class="list-group-item">Строительство домов и коттеджей из газасиликатных, шлакобетонных блоков, кирпича</li>
+                                <li class="list-group-item">Строительство домов каркасного типа</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="serviceInfo">
+                        <p data-toggle="modal" data-target="#serviceInfo7">Организация работ на объектах, выполняемых силами и средствами заказчика</p>
+                        <div class="modal fade" id="serviceInfo7" role="dialog">
+                            <ul class="list-group list-elements">
+                                <li class="list-group-item">Услуги аттестованного главного инженера</li>
+                                <li class="list-group-item">Услуги аттестованного производителя работ</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section id="advantages" class="advantages-section section">
+        <div class="container">
+            <div class="row">
+                
+                <h1>Наши преимущества</h1>
+                <div class="tab-container">
+
+                    <div class="tabs">
+
+                          <input type="radio" name="tabs" id="tabone" checked="checked">
+                          
+                          <label for="tabone">
+                            <span class="glyphicon glyphicon-ok"></span>
+                            Многолетний опыт работы и профессионализм
+                          </label>
+                          <div class="tab">
+                            <p>Мы работаем с 2008 года. Опыт работы ведущих специалистов достигает более 20 лет. Работники имеют высокую квалификацию и не имеют вредных привычек.</p>
+                          </div>
+                          
+                          <input type="radio" name="tabs" id="tabtwo">
+                          <label for="tabtwo">
+                            <span class="glyphicon glyphicon-ok"></span>
+                            Индивидуальный подход
+                          </label>
+                          <div class="tab">
+                            <p>Выполняем весть спектр строительных работ от ремонта отдельного помещения до комплексного ремонта «под ключ». Производство работ  на объекте осуществляется ответственным лицом (прорабом).</p>
+                          </div>
+                          
+                          <input type="radio" name="tabs" id="tabthree">
+                          <label for="tabthree">
+                            <span class="glyphicon glyphicon-ok"></span>
+                            Прозрачность
+                          </label>
+                          <div class="tab">
+                            <p>Составление сметы с видами, объемами, стоимостью работ. Подписание договора с фиксированной стоимостью и сроками выполнения работ.</p>
+                          </div>
+
+                          <input type="radio" name="tabs" id="tabfour">
+                          <label for="tabfour">
+                            <span class="glyphicon glyphicon-ok"></span>
+                            Экономия ваших средств
+                          </label>
+                          <div class="tab">
+                            <p>Выполнение только необходимых видов работ. Помощь в приобретении  материалов по оптовым ценам и доставка его на объект.</p>
+                          </div>
+
+                          <input type="radio" name="tabs" id="tabfive">
+                          <label for="tabfive">
+                            <span class="glyphicon glyphicon-ok"></span>
+                            Высокое качество
+                          </label>
+                          <div class="tab">
+                            <p>Многоступенчатый контроль качества осуществляется бригадиром, прорабом, начальником участка (главным инженером).</p>
+                          </div>
+
+                          <input type="radio" name="tabs" id="tabsix">
+                          <label for="tabsix">
+                            <span class="glyphicon glyphicon-ok"></span>
+                            Гарантия на выполненные работы
+                          </label>
+                          <div class="tab">
+                            <p>Срок гарантии на выполненные работы составляет два года и прописан в договоре.</p>
+                          </div>
+                          
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workflow Section -->
+    <section id="workflow" class="workflow-section section">
+        <div class="container">
+            <div class="row">
+                
+                <h1>Схема работы</h1>
+                
+                <div class="workflow-container">
+                    <img src="./img/wf1.png" alt="wf1.png">
+                    <img src="./img/wf2.png" alt="wf2.png">
+                    <img src="./img/wf3.png" alt="wf3.png">
+                    <img src="./img/wf4.png" alt="wf4.png">
+                    <img src="./img/wf5.png" alt="wf5.png">
+                    <img src="./img/wf6.png" alt="wf6.png">                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients-section section">
+        <div class="container">
+            <div class="row">
+                
+                    <h1>Наши клиенты</h1>
+                    <div class="logo-container">
+                        <a href="http://hockey.by/" target="_blank">
+                            <img src="./img/belhk.png" alt="belhk" data-toggle="tooltip" data-placement="top" title="Федерация хоккея республики Беларусь">
+                        </a>
+                        <a href="http://yachting.by/" target="_blank">                        
+                            <img src="./img/bfps.png" alt="bfps.png" data-toggle="tooltip" data-placement="top" title="Белорусская Федерация парусного спорта">
+                        </a>
+                        <a href="http://www.bseu.by/" target="_blank">
+                            <img src="./img/bseu.png" alt="bseu.png" data-toggle="tooltip" data-placement="top" title="Белорусский государственный экономический университет">                            
+                        </a>
+                        <a href="http://mosk.minsk.gov.by/" target="_blank">                            
+                            <img src="./img/msk.png" alt="msk.png" data-toggle="tooltip" data-placement="top" title="Администрация и управление  образования  Московского района  г. Минска">
+                        </a>
+                        <a href="http://mvd.gov.by/" target="_blank">
+                            <img src="./img/mys.png" alt="mys.png" data-toggle="tooltip" data-placement="top" title="МВД РБ">
+                        </a>
+                        <a href="http://skap.by/" target="_blank">
+                            <img src="./img/skat.png" alt="skat.png" data-toggle="tooltip" data-placement="top" title="УП «Спецкоммунавтотранс»">
+                        </a>
+                        <a href="http://luch.by/" target="_blank">                            
+                            <img src="./img/lych.png" alt="lych.png" data-toggle="tooltip" data-placement="top" title="ОАО «Луч»">
+                        </a>
+                        <a href="http://kupalauski.by/" target="_blank">
+                            <img src="./img/yk.png" alt="yk.png" data-toggle="tooltip" data-placement="top" title="Национальный  академический театр имени Я.Купалы">                            
+                        </a>
+                        <a href="http://mniirm.by/" target="_blank">
+                            <img src="./img/mnirm.png" alt="mnirm.png" data-toggle="tooltip" data-placement="top" title="Минский НИИ Радиоматериалов">
+                        </a>
+                        <a href="http://www.detect.by/sdyushor-po-sovremennomu-pyatiboryu" target="_blank">
+                            <img src="./img/spspb.png" alt="spspb.png" data-toggle="tooltip" data-placement="top" title="СДЮШОР по современному пятиборью г.Минска">
+                        </a>
+                        <a href="http://perue.minsk.edu.by/" target="_blank">
+                            <img src="./img/yoapr.png" alt="yoapr.png" data-toggle="tooltip" data-placement="top" title="Управление  образования  администрации  Первомайского  района г.Минска">
+                        </a>
+                        <a href="http://gdanovichi-san.103.by/" target="_blank">
+                            <img src="./img/zdanovichi.png" alt="zdanovichi.png" data-toggle="tooltip" data-placement="top" title="Детский реабилитационно-оздоровительный центр «Ждановичи»">
+                        </a>
+                        <a href="http://clinicalcenter.by/" target="_blank">
+                            <img src="./img/kcph.png" alt="kcph.png" data-toggle="tooltip" data-placement="top" title="Клинический центр пластической хирургии и медицинской косметологии г.Минска">
+                        </a>
+                        <a href="http://ckroir-stolitsa.by/" target="_blank">
+                            <img src="./img/mgckror.png" alt="mgckror.png" data-toggle="tooltip" data-placement="top" title="Минский городской центр коррекционно-развивающего обучения и реабилитации">
+                        </a>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates-section">
+
+                                 
+        <div class="container">
+            <div class="row">
+                
+                <h1>Сертификаты</h1>
+
+                <div class="modal-crf-container">
+                    <div class="modal " id="crfModal1" role="dialog">
+                            <img src="./img/crf/crf1.jpg" >
+                    </div>
+                    <div class="modal " id="crfModal2" role="dialog">
+                            <img src="./img/crf/crf2.jpg" >
+                    </div>
+                    <div class="modal " id="crfModal3" role="dialog">
+                            <img src="./img/crf/crf3.jpg" >
+                    </div>
+                    <div class="modal " id="crfModal4" role="dialog">
+                            <img src="./img/crf/crf4.jpg" >
+                    </div>
+                    <div class="modal " id="crfModal5" role="dialog">
+                            <img src="./img/crf/crf5.jpg" >
+                    </div>
+                    <div class="modal " id="crfModal6" role="dialog">
+                            <img src="./img/crf/crf6.jpg" >
+                    </div>
+                    <div class="modal " id="crfModal7" role="dialog">
+                            <img src="./img/crf/crf7.jpg" >
+                    </div>
+                    <div class="modal " id="crfModal8" role="dialog">
+                            <img src="./img/crf/reg.jpg" >
+                    </div>
+                    <div class="modal " id="crfModal9" role="dialog">
+                            <img src="./img/crf/comp.jpg" >
+                    </div>
+                    
+                </div>
+
+
+                <div class="Carousel" data-items="1,2,3, 4" data-slide="1" id="ResSlid1">
+                    <div class="Carousel-inner">
+                        <div class="item">
+                            <div class="col-xs-12 col-sm-12 col-lg-12">
+                               <img src="./img/crf/reg.jpg" class="img-responsive center-block" data-toggle="modal" data-target="#crfModal8">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-xs-12 col-sm-12 col-lg-12">
+                               <img src="./img/crf/comp.jpg" class="img-responsive center-block" data-toggle="modal" data-target="#crfModal9">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-xs-12 col-sm-12 col-lg-12">
+                              <img src="./img/crf/crf1.jpg" class="img-responsive center-block" data-toggle="modal" data-target="#crfModal1">   
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-xs-12 col-sm-12 col-lg-12">
+                               <img src="./img/crf/crf2.jpg" class="img-responsive center-block" data-toggle="modal" data-target="#crfModal2">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-xs-12 col-sm-12 col-lg-12">
+                             <img src="./img/crf/crf3.jpg" class="img-responsive center-block" data-toggle="modal" data-target="#crfModal3">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-xs-12 col-sm-12 col-lg-12">
+                              <img src="./img/crf/crf4.jpg" class="img-responsive center-block" data-toggle="modal" data-target="#crfModal4">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-xs-12 col-sm-12 col-lg-12">
+                              <img src="./img/crf/crf5.jpg" class="img-responsive center-block" data-toggle="modal" data-target="#crfModal5">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-xs-12 col-sm-12 col-lg-12">
+                               <img src="./img/crf/crf6.jpg" class="img-responsive center-block" data-toggle="modal" data-target="#crfModal6">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-xs-12 col-sm-12 col-lg-12">
+                              <img src="./img/crf/crf7.jpg" class="img-responsive center-block" data-toggle="modal" data-target="#crfModal7">
+                            </div>
+                        </div>
+                    </div>
+                <button class="btn btn-primary leftLst"><</button>
+                <button class="btn btn-primary rightLst">></button>
+            </div>
+                                
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section">
+        <div class="container">
+            <div class="row">
+                
+                <h1>Примеры наших работ</h1>
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <img src="./img/proj/1.jpg" alt="...">
+                    </div>
+                    <div class="item">
+                      <img src="./img/proj/3.jpg" alt="...">
+                    </div>
+                    <div class="item">
+                      <img src="./img/proj/3.jpg" alt="...">
+                    </div>
+                    <div class="item">
+                      <img src="./img/proj/4.jpg" alt="...">
+                    </div>
+                  </div>
+
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                                
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        
+        <div class="footer-container">
+            <div class="footer-contacts">
+                <p>Минский район, д. Большой Тростенец, ул. Молодежная, д.1, корп.2, ком.1</p>
+                <a class="phone" href="tel:+375255224497">+375(25)522-44-97</a>
+                <a class="email" href="mailto:victory-stroy@tut.by">victory-s@tut.by</a>
+
+            </div>
+            <div class="copyrigth"><p>&copy 2017 Виктори строй</p></div>
+        </div>
+       
+    </section>
+
+
+  <!--   <section id="feedback" class="feedback-section">
+        <div class="container">
+            <div class="row">
+                
+                <h1>Отзывы клиентов</h1>
+
+                <div class="modalFeedbackContainer">
+                    <div class="modal fade" id="feedModal1" role="dialog">
+                            <img src="./img/feedback/feedback1.jpg" >
+                    </div>
+                    <div class="modal" id="feedModal2" role="dialog">
+                            <img src="./img/feedback/feedback2.jpg" >
+                    </div>
+                    <div class="modal" id="feedModal3" role="dialog">
+                            <img src="./img/feedback/feedback3.jpg" >
+                    </div>  
+                     <div class="modal" id="feedModal3" role="dialog">
+                            <img src="./img/feedback/feedback3.jpg" >
+                    </div>                    
+                </div>
+                <div class="feedback-container">
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        
+                        <img class="img-responsive" src="./img/feedback/feedback1.jpg" alt="" data-toggle="modal" data-target="#feedModal1">
+                        
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+
+                        <img class="img-responsive" src="./img/feedback/feedback2.jpg" alt="" data-toggle="modal" data-target="#feedModal2">
+                       
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        
+                        <img class="img-responsive" src="./img/feedback/feedback3.jpg" alt="" data-toggle="modal" data-target="#feedModal3">
+                       
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        
+                        <img class="img-responsive" src="./img/feedback/feedback1.jpg" alt="" data-toggle="modal" data-target="#feedModal1">
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+ -->
+    
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="lib/advantages.js"></script>
+
+
+</body>
+
+</html>
