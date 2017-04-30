@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
 .tabs {
   display: -webkit-box;
   display: -webkit-flex;
@@ -23,9 +28,15 @@
   transition: background ease 0.2s;
   width: 314px;
   border: 1px solid black;
+  font-size: 20px;
+/*  font-style: italic;*/
+  text-transform: uppercase;
 
-  /*border-radius: 4px;
-  -moz-border-radius: 4px;*/
+ 
+  font-family: 'Open Sans Condensed', sans-serif;
+
+  border-radius: 3px;
+  -moz-border-radius: 3px;
 }
 .tabs label:hover {
   /*box-shadow:0 0 40px rgba(0,0,0,0.5);*/
@@ -34,7 +45,9 @@
 }
 
 .tab p {
-  font-size: 24px;
+  font-size: 28px;
+   font-family: 'Open Sans Condensed', sans-serif;
+ 
 }
 
 .tabs .tab {
